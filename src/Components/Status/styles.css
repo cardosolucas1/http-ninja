@@ -1,10 +1,15 @@
 .card-status {
+  margin: auto;
+  max-width: 400px;
+  min-height: 400px;
   width: 90%;
-  max-width: 500px;
-  min-height: 500px;
 }
 
 .card-content {
   height: 170px;
   overflow: auto;
+}
+
+.card-title {
+  font-weight: bold !important;
 }

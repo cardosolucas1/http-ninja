@@ -3,6 +3,7 @@ interface Status {
   title: string,
   description: string,
   image: string,
+  source: string,
 };
 
 export default Status;

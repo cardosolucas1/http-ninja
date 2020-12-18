@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Header from "./Components/Header";
-import Status from "./Components/Status";
 import ListStatus from "./Components/ListStatus";
 import StatusList from './StatusList';
 
