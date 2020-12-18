@@ -1,0 +1,10 @@
+.card-status {
+  width: 90%;
+  max-width: 500px;
+  min-height: 500px;
+}
+
+.card-content {
+  height: 170px;
+  overflow: auto;
+}
