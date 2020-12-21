@@ -11,5 +11,6 @@
 }
 
 .card-title {
+  color: red !important;
   font-weight: bold !important;
 }
