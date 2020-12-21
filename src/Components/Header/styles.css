@@ -3,5 +3,12 @@
 }
 
 .brand-logo {
+  font-size: 5vw !important;
   color: orange !important;
+}
+
+@media screen and (min-width: 800px) {
+  .brand-logo {
+    font-size: 2.5em !important;
+  }
 }

@@ -398,42 +398,42 @@ const StatusList: Status[] = [
     code: '505',
     title: 'HTTP Version Not Supported',
     description: 'A versão HTTP usada na requisição não é suportada pelo servidor.',
-    image: '999.png',
+    image: '505.png',
     source: 'https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/505'
   },
   {
     code: '506',
     title: 'Variant Also Negotiates',
     description: 'O servidor tem um erro de configuração interno: a negociação transparente de conteúdo para a requisição resulta em uma referência circular.',
-    image: '999.png',
+    image: '506.png',
     source: 'https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/506'
   },
   {
     code: '507',
     title: 'Insufficient Storage',
     description: 'O servidor tem um erro interno de configuração: o recurso variante escolhido está configurado para entrar em negociação transparente de conteúdo com ele mesmo, e portanto não é uma ponta válida no processo de negociação.',
-    image: '999.png',
+    image: '507.png',
     source: 'https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/507'
   },
   {
     code: '508',
     title: 'Loop Detected (WebDAV)',
     description: 'O servidor detectou um looping infinito ao processar a requisição.',
-    image: '999.png',
+    image: '508.png',
     source: 'https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/508'
   },
   {
     code: '510',
     title: 'Not Extended',
     description: 'Exigem-se extenções posteriores à requisição para o servidor atendê-la.',
-    image: '999.png',
+    image: '510.png',
     source: 'https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/510'
   },
   {
     code: '511',
     title: 'Network Authentication Required',
     description: 'O código de status 511 indica que o cliente precisa se autenticar para ganhar acesso à rede.',
-    image: '999.png',
+    image: '511.png',
     source: 'https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/511'
   },
 ];

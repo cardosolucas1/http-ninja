@@ -1,16 +1,30 @@
 .card-status {
   margin: auto;
-  max-width: 400px;
-  min-height: 400px;
+  max-width: 380px;
+  height: 460px;
+  opacity: 0.75;
+  transition: opacity .2s ease-out;
   width: 90%;
 }
 
+.card-status:hover {
+  opacity: 1;
+}
+
 .card-content {
-  height: 170px;
+  height: 150px;
   overflow: auto;
 }
 
 .card-title {
   color: red !important;
   font-weight: bold !important;
+}
+
+.card-image {
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.card-action{
+  color: #131313 !important;
 }
