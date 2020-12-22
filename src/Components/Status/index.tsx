@@ -17,7 +17,6 @@ const StatusCard: React.FC<Status> = ({
             src={`${require(`../../Images/${image}`).default}`}
             alt="Foto de personagem de naruto"
           />
-          {/* <span className="card-title">{`${code} - ${title}`}</span> */}
         </div>
         <div className="card-content" >
           <p>{description}</p>
